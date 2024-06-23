@@ -1,0 +1,90 @@
+.card:hover {
+    box-shadow: 0 8px 12px 0 rgb(0 0 0 / 20%);
+}
+
+a.navbar-brand.text-light {
+    font-size: large;
+    font-family: fantasy;
+    padding: 9px;
+    margin-left: 11px;
+    background-color: #525252;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: red;
+} 
+
+
+/* Apply the font-family to the desired element */
+.spotify-text {
+    font-family: sans-serif;
+    /* Add any additional styles */
+    font-size: 24px;
+    color: #000; /* Example color */
+}
+.nav-link:hover{
+    color: red;
+}
+.navbar.bg-transparent {
+    background-color: transparent !important;
+}
+/* Modern Navigation Bar Styles */
+.navbar {
+    background-color: #333; /* Dark background color */
+  }
+  
+  .navbar-brand {
+    color: #fff; /* White text color for the brand */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff; /* White text color for the links */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* White color for the toggler icon */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 10px; /* Add some spacing between nav items */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ccc; /* Lighter text color on hover */
+  }
+  
+  .dropdown-menu {
+    background-color: #333; /* Dark background color for dropdown menu */
+  }
+  
+  .dropdown-item {
+    color: #fff; /* White text color for dropdown items */
+  }
+  
+  .btn {
+    border-radius: 20px; /* Rounded corners for buttons */
+  }
+  
+  .btn-outline-danger {
+    color: #dc3545; /* Red color for outline danger button */
+    border-color: #dc3545; /* Red border color for outline danger button */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Green background color for success button */
+    color: #fff; /* White text color for success button */
+  }
+  /* Background Color and Edgeless Boxes Styling */
+.container {
+    background-color: #f8f9fa; /* Light gray background color for the container */
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .card {
+    border: none; /* Remove borders from the cards */
+    box-shadow: none; /* Remove box shadow from the cards */
+  }
+  
+  .list-group-item {
+    border: none; /* Remove borders from the list group items */
+  }

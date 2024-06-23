@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+}
+img.img-fluid {
+    height: 149px;
+    width: 249px;
+    object-fit: contain;
+}
+.hero-container{
+    height: 10vh;
+}

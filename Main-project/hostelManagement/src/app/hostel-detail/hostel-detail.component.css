@@ -1,0 +1,362 @@
+.card:hover {
+    box-shadow: -8px 8px 12px 0 rgb(0 0 0 / 58%);;
+}
+
+.mx-5 {
+    margin-right: 5rem!important;
+    margin-left: 5rem!important;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Room Card Styles */
+  .card {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    margin-top: 10px;
+  }
+  
+  /* Facilities and Fees Styles */
+  .facilities, .fees {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .facilities h2, .fees h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .facilities ul, .fees ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .facilities li, .fees li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #e2d6d6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .card {
+    width: 15rem; /* Reduce the card width */
+    margin: 10px; /* Add some margin around the cards */
+  }
+  .card-title {
+    font-size: 18px; /* Reduce the font size of the card title */
+  }
+  
+  .card-text {
+    font-size: 25px; /* Reduce the font size of the card text */
+  }
+  .card-img-top {
+    width: 100%; /* Keep the image width at 100% */
+    height: 150px; /* Reduce the image height */
+    object-fit: cover; /* Ensure the image is scaled to fit the container */
+  }
+
+  .card-body {
+    padding: 10px; /* Add some padding to the card body */
+    border-radius: 10px; /* Add a border radius to the card body */
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards */
+  }
+  
+  .col-xs-3 {
+    flex: 0 0 30%; /* Set the card width to 30% */
+    margin: 10px; /* Add some margin around the cards */
+  }
+  /* Style for Fees Structure Table */
+.list-group {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    border: none;
+    border-radius: 0;
+    padding: 10px;
+  }
+  
+  .list-group-item-primary {
+    background-color: #f8f9fa; /* Light background color for primary items */
+  }
+  
+  .list-group-item-success {
+    background-color: #d4edda; /* Light background color for success items */
+  }
+  
+  .list-group-item-primary h4,
+  .list-group-item-success h4 {
+    margin-bottom: 5px;
+  }
+  
+  .list-group-item-primary h3,
+  .list-group-item-success h3 {
+    margin-bottom: 0;
+  }
+  
+  .list-group-item-primary small,
+  .list-group-item-success small {
+    color: #6c757d; /* Light text color for small text */
+  }
+  /* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3edb46; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  /* Instagram-style Heading */
+.heading-instagram {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #262626;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .heading-instagram:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #262626;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Facebook-style Heading */
+  .heading-facebook {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1c1e21;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .heading-facebook:after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #1c1e21;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Airbnb-style Heading */
+  .heading-airbnb {
+    font-family: 'Circular', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #222222;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .heading-airbnb:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: #FF5A5F;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* 3D Border Effect for Heading */
+.heading-3d {
+    position: relative;
+    text-align: center;
+  }
+  
+  .heading-3d #catTitle {
+    display: inline-block;
+    position: relative;
+    font-size: 24px;
+    padding: 0 10px;
+    background-color: #f8f9fa; /* Background color for the heading */
+  }
+  
+  .heading-3d #catTitle:before,
+  .heading-3d #catTitle:after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    width: 50%;
+    height: 2px;
+    background-color: #c54747; /* Color for the 3D border effect */
+  }
+  
+  .heading-3d #catTitle:before {
+    left: 0;
+  }
+  
+  .heading-3d #catTitle:after {
+    right: 0;
+  }
+  /* Font Styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern font family */
+    font-size: 16px; /* Set base font size */
+    color: #333; /* Set text color */
+}
+
+h2, h3, h4 {
+    font-weight: bold; /* Make headings bold */
+}
+
+/* Color Scheme */
+.list-group-item-primary {
+    background-color: #f8f9fa; /* Light background color for primary items */
+    color: #333; /* Text color for primary items */
+}
+
+.list-group-item-success {
+    background-color: #d4edda; /* Light background color for success items */
+    color: #155724; /* Text color for success items */
+}
+
+/* Text Alignment and Spacing */
+.text-center {
+    text-align: center; /* Center align text */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* Add margin top */
+}
+
+.mb-5 {
+    margin-bottom: 3rem; /* Add margin bottom */
+}
+
+/* Text Effects */
+.list-group-item {
+    transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
+/* Font Styling */
+body {
+    font-family: 'Roboto', sans-serif; /* Use a modern font family */
+    font-size: 16px; /* Set base font size */
+    color: #333; /* Set text color */
+}
+
+h2, h3, h4 {
+    font-weight: bold; /* Make headings bold */
+}
+
+/* Color Scheme */
+.list-group-item-primary {
+    background-color: #f8f9fa; /* Light background color for primary items */
+    color: #333; /* Text color for primary items */
+}
+
+.list-group-item-success {
+    background-color: #d4edda; /* Light background color for success items */
+    color: #155724; /* Text color for success items */
+}
+
+/* Text Alignment and Spacing */
+.text-center {
+    text-align: center; /* Center align text */
+}
+
+.mt-3 {
+    margin-top: 1rem; /* Add margin top */
+}
+
+.mb-5 {
+    margin-bottom: 3rem; /* Add margin bottom */
+}
+
+/* Text Effects */
+.list-group-item {
+    transition: background-color 0.3s; /* Add transition effect on hover */
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1; /* Change background color on hover */
+}
